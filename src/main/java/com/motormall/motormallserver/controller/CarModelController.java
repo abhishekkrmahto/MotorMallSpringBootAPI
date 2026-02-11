@@ -1,0 +1,133 @@
+package com.motormall.motormallserver.controller;
+
+import com.motormall.motormallserver.model.CarModel;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@CrossOrigin(origins = "http://localhost:5173")
+@RestController
+public class CarModelController {
+
+    @GetMapping("/")
+    public List<CarModel> getAllCars(){
+        List<CarModel>cars = new ArrayList<>();
+
+        CarModel c1 = new CarModel();
+        c1.setImgLink("bmwm8.jpg");
+        c1.setCarName("BMW M8 CS");
+        c1.setCarBrand("BMW");
+        c1.setCarPower("617 bhp");
+        c1.setSpeed0to100("2.5s");
+        c1.setTopSpeed("270km/hr");
+        c1.setPrice("₹3.20 cr");
+        c1.setCardetails("The BMW M8 Competition features a 4.4-liter twin-turbocharged V8 engine producing 625 horsepower (617 hp in some markets) at 6,000 rpm and (750 text{ Nm}) of torque, making it one of BMW's most powerful production cars");
+        c1.setVideoLink("bmwm8video.mp4");
+        cars.add(c1);
+
+        CarModel c2 = new CarModel();
+        c2.setImgLink("mercedesamg.jpg");
+        c2.setVideoLink("amggtvideo.mp4");
+        c2.setCarName("AMG GT 63");
+        c2.setCarBrand("MERCEDES");
+        c2.setCarPower("469 bhp");
+        c2.setSpeed0to100("3.5s");
+        c2.setTopSpeed("210km/hr");
+        c2.setPrice("₹2.00 cr");
+        c2.setCardetails("The Mercedes-AMG GT offers varied specs, typically featuring a 4.0L Twin-Turbo V8 engine, with power ranging from around 476 hp (GT Coupe) to over 800 hp in hybrid versions like the GT 63 S E PERFORMANCE");
+        cars.add(c2);
+
+
+        CarModel c3 = new CarModel();
+        c3.setImgLink("audirs.jpg");
+        c3.setVideoLink("audirsvideo.mp4");
+        c3.setCarName("RS Etron GT");
+        c3.setCarBrand("AUDI");
+        c3.setCarPower("912 bhp");
+        c3.setSpeed0to100("1.5s");
+        c3.setTopSpeed("310km/hr");
+        c3.setPrice("₹2.16 cr");
+        c3.setCardetails("Audi RS models (RennSport) are the high-performance pinnacle of Audi's lineup, featuring turbocharged engines (V6 or V8), Quattro AWD, and aggressive styling");
+        cars.add(c3);
+
+
+
+        CarModel c4 = new CarModel();
+        c4.setImgLink("rrsport.jpg");
+        c4.setVideoLink("rrsportvideo.mp4");
+        c4.setCarName("RR SPORT");
+        c4.setCarBrand("LAND ROVER");
+        c4.setCarPower("612 bhp");
+        c4.setSpeed0to100("3.5s");
+        c4.setTopSpeed("220km/hr");
+        c4.setPrice("₹1.92 cr");
+        c4.setCardetails("The Range Rover Sport is a luxury performance SUV, with 2025/2026 models offering 3.0L mild-hybrid diesel/petrol and a powerful 4.4L V8 (up to 635 HP) engine options, featuring 8-speed automatic transmission and AWD");
+        cars.add(c4);
+
+
+        CarModel c5 = new CarModel();
+        c5.setImgLink("sclass.jpg");
+        c5.setVideoLink("sclassvideo.mp4");
+        c5.setCarName("S class");
+        c5.setCarBrand("MERCEDES");
+        c5.setCarPower("412 bhp");
+        c5.setSpeed0to100("3.5s");
+        c5.setTopSpeed("220km/hr");
+        c5.setPrice("₹2.77 cr");
+        c5.setCardetails("The S-Class is a 5 seater 6 cylinder car and has length of 5289 mm, width of 2109 mm and a wheelbase of 2850 mm. Read More. Mercedes-Benz S-Class");
+        cars.add(c5);
+
+
+        CarModel c6 = new CarModel();
+        c6.setImgLink("porche911.jpg");
+        c6.setVideoLink("prche911video.mp4");
+        c6.setCarName("911 S");
+        c6.setCarBrand("PORCHE");
+        c6.setCarPower("911 bhp");
+        c6.setSpeed0to100("1.1s");
+        c6.setTopSpeed("356km/hr");
+        c6.setPrice("₹2.12 cr");
+        c6.setCardetails("The Porsche 911 is a luxury sports car, available as a 2+2 seater in Coupé, Cabriolet, or Targa body styles, featuring rear or all-wheel drive and a rear-mounted flat-six engine. It is renowned for its high-performance");
+        cars.add(c6);
+
+
+        CarModel c7 = new CarModel();
+        c7.setImgLink("bmwm4.jpg");
+        c7.setVideoLink("bmwm4video.mp4");
+        c7.setCarName("M4 CS");
+        c7.setCarBrand("BMW");
+        c7.setCarPower("781 bhp");
+        c7.setSpeed0to100("1.4s");
+        c7.setTopSpeed("346km/hr");
+        c7.setPrice("₹3.34 cr");
+        c7.setCardetails("The BMW M4 is a high-performance, 4-seater coupe powered by a 3.0-liter straight-six twin-turbo engine (S58), delivering up to 550 hp (CS variant) or 523 bhp (Competition). It features an 8-speed automatic (or 6-speed manual), RWD or xDrive AWD, ");
+        cars.add(c7);
+
+
+        CarModel c8 = new CarModel();
+        c8.setImgLink("rrvelar.jpg");
+        c8.setVideoLink("rrvelarvideo.mp4");
+        c8.setCarName("RR VELAR");
+        c8.setCarBrand("LAND ROVER");
+        c8.setCarPower("621 bhp");
+        c8.setSpeed0to100("1.9s");
+        c8.setTopSpeed("214km/hr");
+        c8.setPrice("₹1.26 cr");
+        c8.setCardetails("The Range Rover Velar is a luxury mid-size SUV, positioned between the Evoque and Sport, featuring a sleek, minimalist design with flush door handles and premium, tech-forward interiors.");
+        cars.add(c8);
+
+
+
+
+
+
+
+
+
+
+        return cars;
+    }
+}
