@@ -160,6 +160,75 @@ public class CarModelController {
         cars.add(c11);
 
 
+        CarModel c12 = new CarModel();
+        c12.setImgLink("bentContGT.jpg");
+        c12.setVideoLink("bentGTvideo.mp4");
+        c12.setCarName("BENT-CONT-GT");
+        c12.setCarBrand("BENTLEY");
+        c12.setCarPower("812 bhp");
+        c12.setSpeed0to100("1.3s");
+        c12.setTopSpeed("290km/hr");
+        c12.setPrice("₹4.56 cr");
+        c12.setCardetails(
+                "The 4th generation Bentley Continental GT, particularly the Speed and Mulliner models, features a new Ultra Performance Hybrid V8 powertrain producing 782 PS (771 bhp) and of torque");
+        cars.add(c12);
+
+        CarModel c13 = new CarModel();
+        c13.setImgLink("mers-glc.jpg");
+        c13.setVideoLink("mers-glc.mp4");
+        c13.setCarName("GLC");
+        c13.setCarBrand("MERCEDES");
+        c13.setCarPower("714 bhp");
+        c13.setSpeed0to100("2.3s");
+        c13.setTopSpeed("198km/hr");
+        c13.setPrice("₹2.61 cr");
+        c13.setCardetails(
+                "luxury compact SUV available in India with 2.0-litre petrol (258hp/400Nm) or diesel (197hp/440Nm) engines, featuring standard 4Matic all-wheel drive, a 9-speed automatic gearbox, and mild-hybrid technology for added efficiency");
+        cars.add(c13);
+
+
+        CarModel c14 = new CarModel();
+        c14.setImgLink("bugatti-centodieci.jpg");
+        c14.setVideoLink("bugati-Centodieci-video.mp4");
+        c14.setCarName("CENTODIECI");
+        c14.setCarBrand("BUGATTI");
+        c14.setCarPower("914 bhp");
+        c14.setSpeed0to100("0.92s");
+        c14.setTopSpeed("318km/hr");
+        c14.setPrice("₹71.12 cr");
+        c14.setCardetails(
+                "The Bugatti Centodieci is an ultra-rare, $9 million (approx. Rs 78 crore) hypercar based on the Chiron, built to honor the 1990s EB110 with only 10 units produced. It features a 1,600 hp 8.0-liter W16 engine, accelerating from 0-100 km/h in 0.9 seconds");
+        cars.add(c14);
+
+
+        CarModel c15 = new CarModel();
+        c15.setImgLink("rimacNavera.jpg");
+        c15.setVideoLink("rimacNaveraVideo.mp4");
+        c15.setCarName("RIMAC R");
+        c15.setCarBrand("NAVERA");
+        c15.setCarPower("814 bhp");
+        c15.setSpeed0to100("1.5s");
+        c15.setTopSpeed("288km/hr");
+        c15.setPrice("₹16.12 cr");
+        c15.setCardetails(
+                "The Rimac Nevera R is a faster, more agile, and track-focused version of the standard Nevera, producing 2,107 hp from four motors, reaching 0–60 mph in 1.66 seconds");
+        cars.add(c15);
+
+
+        CarModel c16 = new CarModel();
+        c16.setImgLink("ferrari-sf-90.jpg");
+        c16.setVideoLink("ferrari-sf-90-video.mp4");
+        c16.setCarName("SF 90");
+        c16.setCarBrand("FERRARI");
+        c16.setCarPower("915 bhp");
+        c16.setSpeed0to100("1.1s");
+        c16.setTopSpeed("309km/hr");
+        c16.setPrice("₹55.12 cr");
+        c16.setCardetails(
+                "The Ferrari SF90 Stradale (Type F173) is a mid-engine PHEV (plug-in hybrid electric vehicle) sports car produced by the Italian automobile manufacturer Ferrari. The car shares its name with the SF90 Formula One car ");
+        cars.add(c16);
+
+
 
 
 
