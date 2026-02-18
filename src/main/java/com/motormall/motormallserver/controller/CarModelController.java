@@ -120,6 +120,50 @@ public class CarModelController {
         cars.add(c8);
 
 
+         CarModel c9 = new CarModel();
+        c9.setImgLink("rrGhost.jpg");
+        c9.setVideoLink("rrGhost.mp4");
+        c9.setCarName("RR GHOST");
+        c9.setCarBrand("ROLLS ROYCE");
+        c9.setCarPower("675 bhp");
+        c9.setSpeed0to100("1.8s");
+        c9.setTopSpeed("256km/hr");
+        c9.setPrice("₹9.26 cr");
+        c9.setCardetails(
+                "It features a 6.75-litre twin-turbo V12 engine producing 563hp (600hp for Black Badge) and 820Nm–900Nm of torque, utilizing all-wheel drive, a 48-volt suspension system, and an Aluminum Architecture of Luxury frame. ");
+        cars.add(c9);
+
+        CarModel c10 = new CarModel();
+        c10.setImgLink("rollsRoyceSuv.jpg");
+        c10.setVideoLink("rrCullinan.mp4");
+        c10.setCarName("RR CULLINAN");
+        c10.setCarBrand("ROLLS ROYCE");
+        c10.setCarPower("571 bhp");
+        c10.setSpeed0to100("2.1s");
+        c10.setTopSpeed("220km/hr");
+        c10.setPrice("₹7.56 cr");
+        c10.setCardetails(
+                "The Rolls-Royce Cullinan is a ultra-luxury SUV powered by a 6.75-litre twin-turbo V12 engine producing and of torque.");
+        cars.add(c10);
+
+        CarModel c11 = new CarModel();
+        c11.setImgLink("boatTail.jpg");
+        c11.setVideoLink("boatTail.mp4");
+        c11.setCarName("RR BOAT-TAIL");
+        c11.setCarBrand("ROLLS ROYCE");
+        c11.setCarPower("715 bhp");
+        c11.setSpeed0to100("2.2s");
+        c11.setTopSpeed("270km/hr");
+        c11.setPrice("₹212.56 cr");
+        c11.setCardetails(
+                " Inspired by 1930s yachts and luxury marine design, it features a unique rear \"butterfly-opening\" deck, a 6.75-liter twin-turbo V12 engine, and fully bespoke");
+        cars.add(c11);
+
+
+
+
+
+
 
 
 
